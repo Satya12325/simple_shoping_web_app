@@ -1,0 +1,33 @@
+.image{
+    /* height:492px;
+    width:370px; */
+    height:100%;
+    width:100%
+}
+
+.image:hover{
+    cursor: zoom-in;
+}
+
+.imgwrapper{
+   
+   padding-left:2%;
+    
+
+}
+.mainwrapper {
+    width: 50%;
+   
+}
+@media screen and (max-width:700px){
+    .mainwrapper{
+        width: 100%;
+        margin: auto;
+    }
+    .imgwrapper{
+   
+        padding:4%;
+         
+     
+     }
+}
